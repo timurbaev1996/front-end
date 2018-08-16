@@ -35,7 +35,7 @@ import static jdk.nashorn.tools.ShellFunctions.input;
 @Path("/services")
 public class DBDAServicePort implements IDBDAServicePort {
     
-    public SQLManager sqlManager = new SQLManager("jdbc:mysql://10.11.32.20:3306/db_grad_cs_1917","dbgrad","dbgrad");
+    public SQLManager sqlManager = new SQLManager("jdbc:mysql://10.11.32.21:3306/db_grad_cs_1917","dbgrad","dbgrad");
 
     @Override
     @GET
